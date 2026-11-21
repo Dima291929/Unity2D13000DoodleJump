@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 35
+  controlID: 37
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 36
+  controlID: 38
   draggingID: 0
 --- !u!114 &10
 MonoBehaviour:
@@ -250,7 +250,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 37
+  controlID: 39
   draggingID: 0
 --- !u!114 &11
 MonoBehaviour:
@@ -302,7 +302,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: 43.2
     width: 1536
     height: 36
   m_SerializedDataModeController:
@@ -606,7 +606,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 463.2
+    y: 518.4
     width: 1127.8
     height: 251.59998
   m_SerializedDataModeController:
@@ -633,7 +633,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Prefabs
+    - Assets/Scripts/Mono
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -643,7 +643,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Prefabs
+  - Assets/Scripts/Mono
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Works\Project\Unity\DoodleJump\Unity2D13000DoodleJump\DoodleJump2D
   m_LockTracker:
@@ -652,13 +652,16 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 79}
     m_SelectedIDs:
-    - m_Data: 50962
+    - m_Data: 51310
     m_LastClickedID:
-      m_Data: 50962
+      m_Data: 51310
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 50800
     - m_Data: 50802
+    - m_Data: 51104
+    - m_Data: 1000000000
+    - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -721,15 +724,15 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: []
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs:
     - m_Data: 50998
     - m_Data: 51108
     - m_Data: 51320
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Mono
+      m_OriginalName: Mono
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
@@ -737,10 +740,10 @@ MonoBehaviour:
         width: 0
         height: 0
       m_UserData:
-        m_Data: 0
+        m_Data: 51310
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_TrimLeadingAndTrailingWhitespace: 0
       m_ClientGUIView: {fileID: 5}
@@ -776,8 +779,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1129.8
-    y: 24
+    x: 1128.8
+    y: 79.200005
     width: 406.19995
     height: 690.8
   m_SerializedDataModeController:
@@ -828,7 +831,7 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 24
+    y: 79.200005
     width: 243.8
     height: 413.2
   m_SerializedDataModeController:
@@ -851,11 +854,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -5052
-      - m_Data: -4852
-      - m_Data: -4614
-      - m_Data: -2358
-      - m_Data: -92
+      - m_Data: -1360
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -902,8 +901,8 @@ MonoBehaviour:
     m_TextWithWhitespace: "Scene\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 245.8
-    y: 24
+    x: 244.8
+    y: 79.200005
     width: 882.00006
     height: 413.2
   m_SerializedDataModeController:
@@ -1476,9 +1475,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.14983746, y: -1.3724988, z: -10.028168}
+    m_Target: {x: 1.8573354, y: -1.5179099, z: -10.036268}
     speed: 2
-    m_Value: {x: -0.14983746, y: -1.3724988, z: -10.028168}
+    m_Value: {x: 1.5585725, y: -1.6224008, z: -10.033813}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1528,9 +1527,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.890604
+    m_Target: 5.7011237
     speed: 2
-    m_Value: 4.890604
+    m_Value: 5.455621
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1623,10 +1622,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -540
-    m_HBaseRangeMax: 540
-    m_VBaseRangeMin: -960
-    m_VBaseRangeMax: 960
+    m_HBaseRangeMin: -432
+    m_HBaseRangeMax: 432
+    m_VBaseRangeMin: -768
+    m_VBaseRangeMax: 768
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -1635,7 +1634,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -1646,21 +1645,21 @@ MonoBehaviour:
       y: 21
       width: 882.00006
       height: 392.2
-    m_Scale: {x: 0.20427084, y: 0.20427084}
-    m_Translation: {x: 441.00006, y: 196.1}
+    m_Scale: {x: 0.25533855, y: 0.25533855}
+    m_Translation: {x: 441.00003, y: 196.1}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -2158.8987
-      y: -960
-      width: 4317.7974
-      height: 1920
+      x: -1727.1189
+      y: -768
+      width: 3454.2378
+      height: 1536
     m_MinimalGUI: 1
-  m_defaultScale: 0.20427084
-  m_LastWindowPixelSize: {x: 882.00006, y: 413.2}
+  m_defaultScale: 0.25533855
+  m_LastWindowPixelSize: {x: 1102.5001, y: 516.5}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000100000100
